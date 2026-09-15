@@ -6,12 +6,10 @@ import { Eyebrow, Display, BodyLarge } from "@/components/ui/Typography";
 export function Hero() {
   return (
     <section className="relative flex min-h-[92vh] items-end overflow-hidden bg-ink-900 sm:items-center">
-      <Image
-  src="/images/hero/hero.jpg"
+      <img
+  src="/images/hero/hero.png"
   alt="Foto hero — produksi apparel Widia Utama"
-  fill
-  priority
-  className="object-cover z-0"
+  className="absolute inset-0 w-full h-full object-cover z-0"
 />
       {/* Subtle dark overlay so type stays legible over any photo dropped in later */}
       <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/75 to-ink-900/30" />
