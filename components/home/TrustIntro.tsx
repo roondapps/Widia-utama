@@ -32,12 +32,23 @@ export function TrustIntro() {
 
         <Reveal delay={100} className="mt-16 border-t border-ink-700 pt-10">
           <Small className="text-paper-faint">Dipercaya oleh klien di berbagai kota</Small>
-          <ImagePlaceholder
-            folder="clients"
-            alt="Logo klien"
-            label="[CLIENT LOGOS — COMPANY DATA NEEDED]"
-            className="mt-5 h-20 w-full"
-          />
+          <div className="mt-5 flex flex-wrap gap-8 items-center justify-center">
+  <img
+    src="/images/clients/client.png"
+    alt="Pelindo"
+    className="h-12 w-auto object-contain"
+  />
+  <img
+    src="/images/clients/client1.png"
+    alt="Klien 1"
+    className="h-12 w-auto object-contain"
+  />
+  <img
+    src="/images/clients/client2.png"
+    alt="Klien 2"
+    className="h-12 w-auto object-contain"
+  />
+</div>
         </Reveal>
       </Container>
     </Section>
