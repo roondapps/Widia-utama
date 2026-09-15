@@ -120,7 +120,7 @@ export const products: Product[] = [
     category: "Seragam Kerja",
     material: "taslan, Parasit, micro, ",
     customization: customizationNote,
-    moq: 12pcs,
+    moq: "12pcs",
     specifications: null,
     faq: sharedFaq,
   },
