@@ -127,7 +127,7 @@ export const products: Product[] = [
     faq: sharedFaq,
   },
   {
-    name: "topi",
+    name: "Topi",
     slug: "topi",
     shortDescription :"topi seragam atau comunitas yang di sesuaikan kebutuhan proyek",
     description: "topi seragam kerja maupun aparel promosi, dapat di sesuaikan melalui konsultasi desain dwngan tim widia utama",
