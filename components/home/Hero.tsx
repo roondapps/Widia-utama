@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section className="relative flex min-h-[92vh] items-end overflow-hidden bg-ink-900 sm:items-center">
       <Image
-  src="/images/hero/hero.png"
+  src="/images/hero/hero.jpg"
   alt="Foto hero — produksi apparel Widia Utama"
   fill
   priority
