@@ -99,7 +99,7 @@ export const products: Product[] = [
       "Kemeja formal maupun kasual untuk kebutuhan kantor dan acara perusahaan.",
     description:
       "Kemeja untuk kebutuhan seragam kantor maupun acara perusahaan, dapat disesuaikan melalui konsultasi desain dengan tim Widia Utama.",
-    image: "/images/products/kemeja.png",
+    image: "/images/products/kemeja.jpg",
     gallery: [],
     category: "Seragam Kerja",
     material: "Drill, Oxfort, Catton, Tropical",
@@ -116,7 +116,7 @@ export const products: Product[] = [
       "Jaket seragam dan promosi dengan konstruksi yang disesuaikan kebutuhan proyek.",
     description:
       "Jaket untuk kebutuhan seragam kerja maupun apparel promosi, dapat disesuaikan melalui konsultasi desain dengan tim Widia Utama.",
-    image: "/images/products/jaket-parasit.png",
+    image: "/images/products/jaket-parasit.jpg",
     gallery: [],
     category: "Seragam Kerja",
     material: "taslan, Parasit, micro,",
