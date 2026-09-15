@@ -11,7 +11,7 @@ export function Hero() {
   alt="Foto hero — produksi apparel Widia Utama"
   fill
   priority
-  className="object-cover absolute inset-0 -z-10"
+  className="object-cover z-0"
 />
       {/* Subtle dark overlay so type stays legible over any photo dropped in later */}
       <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/75 to-ink-900/30" />
