@@ -32,23 +32,21 @@ export function TrustIntro() {
 
         <Reveal delay={100} className="mt-16 border-t border-ink-700 pt-10">
           <Small className="text-paper-faint">Dipercaya oleh klien di berbagai kota</Small>
-          <div className="mt-5 flex flex-wrap gap-8 items-center justify-center">
-  <img
-    src="/images/clients/client.png"
-    alt="Pelindo"
-    className="h-12 w-auto object-contain"
-  />
-  <img
-    src="/images/clients/client1.png"
-    alt="Klien 1"
-    className="h-12 w-auto object-contain"
-  />
-  <img
-    src="/images/clients/client2.png"
-    alt="Klien 2"
-    className="h-12 w-auto object-contain"
-  />
-</div>
+          <div className="mt-5 flex flex-wrap gap-4 items-center justify-center">
+  {[
+    { src: "/images/clients/client.png", alt: "Pelindo" },
+    { src: "/images/clients/client1.png", alt: "KT&G" },
+    { src: "/images/clients/client2.png", alt: "Barry Callebaut" }
+  ].map((logo) => (
+    <div key={logo.alt} className="bg-white/90 rounded-xl p-3 h-16 w-28 flex items-center justify-center shadow-lg">
+      <img
+        src={logo.src}
+        alt={logo.alt}
+        className="max-h-full max-w-full object-contain"
+      />
+    </div>
+  ))}
+          </div>
         </Reveal>
       </Container>
     </Section>
