@@ -1,16 +1,18 @@
 import { Container } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import Image from "next/image";
 import { Eyebrow, Display, BodyLarge } from "@/components/ui/Typography";
 
 export function Hero() {
   return (
     <section className="relative flex min-h-[92vh] items-end overflow-hidden bg-ink-900 sm:items-center">
-      <ImagePlaceholder
-        folder="hero"
-        alt="Foto hero — produksi apparel Widia Utama"
-        className="absolute inset-0 h-full w-full rounded-none border-none"
-      />
+      <Image
+  src="/images/hero/hero.jpg"
+  alt="Foto hero — produksi apparel Widia Utama"
+  fill
+  priority
+  className="object-cover absolute inset-0 -z-10"
+/>
       {/* Subtle dark overlay so type stays legible over any photo dropped in later */}
       <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/75 to-ink-900/30" />
 
