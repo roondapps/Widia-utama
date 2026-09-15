@@ -126,6 +126,21 @@ export const products: Product[] = [
     specifications: null,
     faq: sharedFaq,
   },
+  {
+    name: "topi",
+    slug: "topi",
+    shortDescription :"topi seragam atau comunitas yang di sesuaikan kebutuhan proyek",
+    description: "topi seragam kerja maupun aparel promosi, dapat di sesuaikan melalui konsultasi desain dwngan tim widia utama",
+    image: null,
+    gallery:[],
+    category: "seragam kerja maupun comunitas",
+    material: "canvas, drill",
+    customization: customizationNote,
+    sizes: null,
+    moq:"24pcs",
+    specifications: null,
+    faq: sharedFaq,
+  }
 ];
 
 export function getProductBySlug(slug: string): Product | undefined {
