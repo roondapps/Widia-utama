@@ -99,7 +99,7 @@ export const products: Product[] = [
       "Kemeja formal maupun kasual untuk kebutuhan kantor dan acara perusahaan.",
     description:
       "Kemeja untuk kebutuhan seragam kantor maupun acara perusahaan, dapat disesuaikan melalui konsultasi desain dengan tim Widia Utama.",
-    image: null,
+    image: "/images/products/kemeja.png",
     gallery: [],
     category: "Seragam Kerja",
     material: null,
