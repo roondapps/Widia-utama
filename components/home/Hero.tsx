@@ -1,6 +1,5 @@
 import { Container } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
-import Image from "next/image";
 import { Eyebrow, Display, BodyLarge } from "@/components/ui/Typography";
 
 export function Hero() {
