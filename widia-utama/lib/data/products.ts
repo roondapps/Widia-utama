@@ -131,7 +131,11 @@ export const products: Product[] = [
       "Jaket seragam dan promosi dengan konstruksi yang disesuaikan kebutuhan proyek.",
     description:
       "Jaket untuk kebutuhan seragam kerja maupun apparel promosi, dapat disesuaikan melalui konsultasi desain dengan tim Widia Utama.",
+<<<<<<< HEAD
     image: "/images/products/jaket-parasit.jpg",
+=======
+    image: "/images/products/jaket-parasit.png",
+>>>>>>> 7bbfeaefe605c6faa2968097754493ed061831d3
     gallery: [],
     category: "Seragam Kerja",
     material: "taslan, Parasit, micro,",
