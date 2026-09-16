@@ -87,7 +87,7 @@ export const products: Product[] = [
     category: "Apparel Promosi",
     material: null,
     customization: customizationNote,
-    moq: null,
+    moq: "12pcs",
     sizes: null,
     specifications: null,
     faq: sharedFaq,
