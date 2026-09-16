@@ -52,12 +52,12 @@ export function TrustIntro() {
     src="/images/clients/clien3.png"
     alt="ecco indonesia"
     className="h-12 w-auto object-contain"
-    />
+  />
   <img
     src="/images/clients/client4.png"
     alt="klien 4"
     className="h-12 w-auto object-contain"
-    />
+  />
 </div>
         </Reveal>
       </Container>
