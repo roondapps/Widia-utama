@@ -110,6 +110,21 @@ export const products: Product[] = [
     faq: sharedFaq,
   },
   {
+    name: "rompi",
+    slug: "rompi",
+    shortDescription:null,
+    description: null,
+    image: null,
+    gallery: null,
+    category: null,
+    material: null,
+    customization: customizationNote,
+    sizes: null,
+    moq: null,
+    specifications: null,
+    faq: sharedFaq,
+  },
+  {
     name: "Jaket",
     slug: "jaket",
     shortDescription:
