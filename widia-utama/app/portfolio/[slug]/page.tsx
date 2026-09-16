@@ -18,15 +18,18 @@ import { buildMetadata } from "@/lib/site-config";
 const PLACEHOLDER = "[PORTFOLIO DATA NEEDED]";
 
 interface PortfolioPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
   return portfolioProjects.map((project) => ({ slug: project.slug }));
 }
 
-export function generateMetadata({ params }: PortfolioPageProps): Metadata {
-  const project = getProjectBySlug(params.slug);
+export async function generateMetadata({
+  params,
+}: PortfolioPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const project = getProjectBySlug(slug);
   if (!project) return {};
 
   return buildMetadata({
@@ -36,12 +39,14 @@ export function generateMetadata({ params }: PortfolioPageProps): Metadata {
   });
 }
 
-export default function PortfolioDetailPage({ params }: PortfolioPageProps) {
-  const project = getProjectBySlug(params.slug);
+export default async function PortfolioDetailPage({
+  params,
+}: PortfolioPageProps) {
+  const { slug } = await params;
+  const project = getProjectBySlug(slug);
   if (!project) notFound();
 
   const related = getRelatedProjects(project.slug);
-
   const sections = [
     { heading: "The Project", body: project.description },
     { heading: "The Challenge", body: project.challenge },
@@ -101,7 +106,6 @@ export default function PortfolioDetailPage({ params }: PortfolioPageProps) {
       </Section>
 
       <RelatedProjects projects={related} />
-
       <CTASection
         title="HAVE A PROJECT IN MIND?"
         description="Ceritakan kebutuhan apparel perusahaan Anda kepada PT Widia Utama."
