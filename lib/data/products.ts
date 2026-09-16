@@ -112,11 +112,11 @@ export const products: Product[] = [
   {
     name: "rompi",
     slug: "rompi",
-    shortDescription:null,
+    shortDescription:"rompi kerja maupun K3 untuk kebutuhan seragam maupun contractor,",
     description: null,
     image: null,
     gallery: null,
-    category: null,
+    category: "rompi k3",
     material: null,
     customization: customizationNote,
     sizes: null,
