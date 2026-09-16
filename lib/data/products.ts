@@ -100,7 +100,7 @@ export const products: Product[] = [
     description:
       "Kemeja untuk kebutuhan seragam kantor maupun acara perusahaan, dapat disesuaikan melalui konsultasi desain dengan tim Widia Utama.",
     image: "/images/products/kemeja.jpg",
-    gallery: [],
+    gallery: ["/images/products/kemeja1.jpg",],
     category: "Seragam Kerja",
     material: "Drill, Oxfort, Catton, Tropical",
     customization: customizationNote,
