@@ -128,7 +128,7 @@ export const products: Product[] = [
   },
   {
   name: "Rompi",
-  slug: "rompi k3",
+  slug: "rompi",
   shortDescription:"rompi kerja k3 atau comunitas",
   description:"rompi kerja k3 maupun comunitas  dapat di seduaikan malalui konsultasi desain dengan tim widia utama",
   image:"/images/products/rompi.jpg",
