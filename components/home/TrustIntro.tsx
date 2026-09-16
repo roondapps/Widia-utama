@@ -49,11 +49,6 @@ export function TrustIntro() {
     className="h-12 w-auto object-contain"
   />
   <img
-    src="/images/clients/client3.png"
-    alt="klien 3"
-    className="h-12 w-auto object-contain"
-    />
-  <img
     src="/images/clients/client4.png"
     alt="klien 4"
     className="h-12 w-auto object-contain"
