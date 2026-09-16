@@ -132,7 +132,7 @@ export const products: Product[] = [
     shortDescription :"topi seragam atau comunitas yang di sesuaikan kebutuhan proyek",
     description: "topi seragam kerja maupun aparel promosi, dapat di sesuaikan melalui konsultasi desain dwngan tim widia utama",
     image: "/images/products/topi.jpg",
-    gallery:["/images/products/topi1.jpg"],
+    gallery:["/images/products/topi1.jpg",],
     category: "seragam kerja maupun comunitas",
     material: "canvas, drill",
     customization: customizationNote,
