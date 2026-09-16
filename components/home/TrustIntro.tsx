@@ -53,6 +53,11 @@ export function TrustIntro() {
     alt="klien 3"
     className="h-12 w-auto object-contain"
     />
+  <img
+    src="/images/clients/client4.png"
+    alt="klien 4"
+    className="h-12 w-auto object-contain"
+    />
 </div>
         </Reveal>
       </Container>
