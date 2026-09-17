@@ -133,7 +133,8 @@ export const products: Product[] = [
   description:"rompi kerja k3 maupun comunitas  dapat di seduaikan malalui konsultasi desain dengan tim widia utama",
   image:"/images/products/rompi.jpg",
   gallery:["/images/products/rompi1.jpg",
-          "/images/products/rompi2.jpg"], 
+          "/images/products/rompi2.jpg" 
+          "/images/products/rompi3.jpg"], 
   category: "Rompi",
   material:"taslan, denim, jala, drill,",
   customization: customizationNote,
