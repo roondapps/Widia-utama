@@ -79,13 +79,14 @@ export const products: Product[] = [
     name: "T-Shirt",
     slug: "t-shirt",
     shortDescription:
-      "Kaos promosi dan seragam tim dengan opsi sablon atau bordir.",
+      "Kaos promosi dan seragam tim dengan opsi sablon, printing, atau bordir.",
     description:
       "T-shirt untuk kebutuhan seragam tim maupun kebutuhan promosi perusahaan, dapat disesuaikan melalui konsultasi desain dengan tim Widia Utama.",
-    image: null,
-    gallery: [],
+    image: "/images/products/t-shirt.jpg",
+    gallery: ["images/products/t-shirt1.jpg",
+             "images/products/t-shirt2.jpg",],
     category: "Apparel Promosi",
-    material: null,
+    material: "jersy, catton, PE shoft,tc",
     customization: customizationNote,
     moq: "12pcs",
     sizes: null,
