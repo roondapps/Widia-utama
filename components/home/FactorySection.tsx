@@ -1,7 +1,7 @@
+import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { Reveal } from "@/components/ui/Reveal";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { ButtonLink } from "@/components/ui/Button";
 import { H2, BodyLarge } from "@/components/ui/Typography";
 
@@ -27,11 +27,16 @@ export function FactorySection() {
       </Container>
 
       <Reveal delay={100} className="mt-14">
-        <ImagePlaceholder
-          folder="factory"
-          alt="Foto workshop dan proses produksi Widia Utama"
-          className="h-[60vh] w-full rounded-none border-x-0"
-        />
+        <div className="relative h-[60vh] w-full overflow-hidden">
+     <Image
+         src="/images/factory/workshop-1.webp"
+         alt="Foto workshop dan proses produksi Widia Utama"
+         fill
+         sizes="100vw"
+        className="object-cover"
+       priority
+  />
+</div>
       </Reveal>
     </Section>
   );
