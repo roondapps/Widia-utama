@@ -65,7 +65,7 @@ export const products: Product[] = [
       "Seragam kerja custom dengan pilihan bahan dan warna sesuai identitas perusahaan.",
     description:
       "Polo shirt untuk kebutuhan seragam kerja maupun apparel promosi, dapat disesuaikan melalui konsultasi desain dengan tim Widia Utama.",
-    image: null,
+    image: "/images/products/polo.jpg",
     gallery: [],
     category: "Seragam Kerja",
     material: null,
