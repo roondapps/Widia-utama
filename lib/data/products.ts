@@ -66,7 +66,7 @@ export const products: Product[] = [
     description:
       "Polo shirt untuk kebutuhan seragam kerja maupun apparel promosi, dapat disesuaikan melalui konsultasi desain dengan tim Widia Utama.",
     image: "/images/products/polo.jpg",
-    gallery: [],
+    gallery: ["/images/products/polo1.jpg"],
     category: "Seragam Kerja",
     material: null,
     customization: customizationNote,
