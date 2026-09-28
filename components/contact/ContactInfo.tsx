@@ -60,11 +60,18 @@ export function ContactInfo() {
             Wiyung, Surabaya 60222, Jawa Timur.
           </Body>
 
-          <div className="mt-8 flex aspect-[16/6] w-full items-center justify-center border border-dashed border-ink-700 bg-ink-800/40">
-            <Small className="text-paper-faint">
-              [MAP INTEGRATION — OPTIONAL]
-            </Small>
-          </div>
+          <div className="mt-8 aspect-[16/9] w-full overflow-hidden border border-ink-700 md:aspect-[16/6]">
+  <iframe
+    src="https://www.google.com/maps?q=MMGQ%2BF8+Balas+Klumprik+Surabaya&output=embed"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    allowFullScreen
+    title="Lokasi PT Widia Utama"
+  />
+</div>
         </Reveal>
       </Container>
     </Section>
